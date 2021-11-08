@@ -1,0 +1,126 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>P6 - Scrolly Telling Visualization</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="intro" class="header-container fs" style="font-family: Mulish;">
+            <header class="wrapper">
+                <h1 style="font-family: Mulish;" class="title">Gender and Migration</h1>
+                <p>A project by Kwesi Afrifa, Sarah Lohmar, and Meera Gregerson</p>
+            </header>
+            <span class="scroll-hint">Explore More</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#intro"><span class="nav-dot"></span><span class="nav-label">Intro!</span></a></li>
+                <li><a href="#slide01"><span class="nav-dot"></span><span class="nav-label">Themes</span></a></li>
+                <li><a href="#slide02"><span class="nav-dot"></span><span class="nav-label">Visualizations</span></a></li>
+            </ul>
+        </nav>
+
+        <div class="main-container">
+
+            <article id="cb01" class="content-block">
+                <div class="wrapper">
+                    <header class="slideInUp">
+                        <h1 style="font-family: Mulish;">Individual-Focused</h1>
+                    </header>
+                    <section>
+                        <p class="slideInUp slideInUp2">As a group, we wanted to find stories behind the data, and relied on words data the WFP recorded to do this.</p>
+                    </section>
+                </div> <!-- .wrapper -->
+            </article>
+            
+            <article id="slide01" class="slide fs">
+                <div class="wrapper">
+                    <header class="slideInUp">
+                        <h1 style="font-family: Mulish;">Sample Map</h1>
+                    </header>
+                    <section>
+                        <iframe class="slideInUp slideInUp2" width='100%' height='400px' src="https://api.mapbox.com/styles/v1/kwesiafrifa/ckvr1zbi726c114mu0u5ilchk.html?title=false&access_token=pk.eyJ1Ijoia3dlc2lhZnJpZmEiLCJhIjoiY2t2cjF3aHUwMjQzMDJucW5idjVtNml1NCJ9.fs4e1fiuFqmz8q5QQq6z5w&zoomwheel=false#11.26/13.6968/-89.2064" title="Basic" style="border:none;"></iframe>
+                    </section>
+                </div> <!-- .wrapper -->
+            </article>
+
+            <article id="cb02" class="content-block">
+                <div class="wrapper">
+                    <header class="slideInUp">
+                        <h1 style="font-family: Mulish;">Project Focus</h1>
+                    </header>
+                    <section>
+                        <p class="slideInUp slideInUp2">We focused mainly on Nicaragua, El Salvador and Honduras, which were the three location sthe WFP respondent data covered.</p>
+                    </section>
+                </div> <!-- .wrapper -->
+            </article>
+
+            <article id="slide02" class="slide fs">
+                <div style="align-items: center;"class="wrapper">
+                    <header class="slideInUp">
+                        <h2 style="font-family: Mulish;">We aim to focus on differences in outcomes of migrants to the US based on gender through the above lens.</h1>
+                    </header>
+                    <section>
+                        <div>
+                            <img src="img/nicaragua_09232018.png" class="slideInUp slideInUp2" style="width: 350px;">
+                        </div>
+
+                        <div>
+                            <img src="img/12_women-and-migration-honduras-to-mexico-tijuana-market.webp" class="slideInUp slideInUp2" style="width: 350px;">
+                        </div>
+                    </section>
+                </div> <!-- .wrapper -->
+            </article>
+
+            <article id="cb03" class="content-block">
+                <div class="wrapper">
+                    <header class="slideInUp">
+                        <h1 style="font-family: Mulish;">Aim</h1>
+                    </header>
+                    <section>
+                        <p class="slideInUp slideInUp2">We hope this will shed light on the motivations and reality of economic migrants to the United States, and that the focus on individual stories will help US residents empathize with their journeys.</p>
+                    </section>
+                </div> <!-- .wrapper -->
+            </article>
+
+        </div> <!-- #main-container -->
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
